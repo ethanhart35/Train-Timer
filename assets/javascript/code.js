@@ -20,7 +20,7 @@ var frequency;
 //     appId: "1:507381953397:web:81176ef1a8a08cfaec193c"
 //     };
 
-// // Initialize Firebase
+// Initialize Firebase
 // firebase.initializeApp(firebaseConfig);
 
 // var database = firebase.database();
@@ -39,8 +39,8 @@ $("#submit").on("click", function(){
 var newTrain = $("<tr>").append(
     $("<td>").text(trainName),
     $("<td>").text(destination),
-    $("<td>").text(trainTime),
-    $("<td>").text(frequency)
+    $("<td>").text(frequency),
+    $("<td>").text(trainTime)
 );
 $("#tableBody").append(newTrain);
 });
