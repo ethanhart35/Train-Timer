@@ -39,11 +39,12 @@ $("#submit").on("click", function(){
 var newTrain = $("<tr>").append(
     $("<td>").text(trainName),
     $("<td>").text(destination),
-    $("<td>").text(frequency),
-    $("<td>").text(trainTime)
+    $("<td>").text(frequency)
 );
 $("#tableBody").append(newTrain);
 });
+
+moment();
 //
 
 
